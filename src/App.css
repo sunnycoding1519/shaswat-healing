@@ -1,0 +1,191 @@
+/* ===================== App.css ====================*/
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #f4f7f6;
+}
+
+.container {
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  background: #0c3b2e;
+  color: white;
+}
+
+.logo {
+  height: 50px;
+  margin-right: 15px;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(to right, #0c3b2e, #1e7c5a);
+  color: white;
+}
+
+.highlight {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.dark {
+  background: #0c3b2e;
+  color: white;
+}
+
+.section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.section li {
+  margin: 10px 0;
+}
+
+.slider {
+  text-align: center;
+}
+
+.slider img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.baba img {
+  width: 220px;
+  border-radius: 12px;
+  margin: 20px 0;
+}
+
+.cta {
+  background: #ff9800;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+.floating-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: red;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.floating-btn:hover {
+  transform: scale(1.1);
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #0c3b2e;
+  color: white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+}
+
+.baba-top {
+  height: 70px;
+  width: 70px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+/* ===================== UPDATED PREMIUM CSS =====================*/
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: #eef3f1;
+}
+
+.header {
+  padding: 20px 30px;
+  background: linear-gradient(90deg, #0c3b2e, #1e7c5a);
+}
+
+.logo {
+  height: 70px;
+}
+
+.baba-top {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  border: 3px solid white;
+  box-shadow: 0 0 15px rgba(255,255,255,0.4);
+}
+
+.hero h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #0c3b2e;
+}
+
+.section li {
+  font-weight: 600;
+  color: #111;
+}
+
+.slider img {
+  width: 90%;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.baba img {
+  width: 260px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.cta {
+  background: linear-gradient(90deg, #ff9800, #ff5722);
+}
+
+.floating-btn {
+  background: linear-gradient(45deg, red, #ff5722);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+}
